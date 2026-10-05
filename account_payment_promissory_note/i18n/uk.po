@@ -38,3 +38,8 @@ msgstr ""
 "<span class=\"text-muted\" invisible=\"not promissory_note\">\n"
 "                    Установіть дату погашення для всіх платежів або залиште порожньою, щоб вибрати останню дату погашення для кожної групи рахунків контрагента\n"
 "                </span>"
+
+#. module: account_payment_promissory_note
+#: model:ir.model,name:account_payment_promissory_note.model_account_promissory_note_mixin
+msgid "Promissory Note Mixin"
+msgstr "Міксин простого векселя"

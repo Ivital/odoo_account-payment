@@ -39,3 +39,22 @@ msgstr "Показувати примусову ранню знижку"
 #: model:ir.model.fields,field_description:account_force_early_discount.field_account_payment_register__with_forced_early_discount
 msgid "With Forced Early Discount"
 msgstr "Із примусовою ранньою знижкою"
+
+#. module: account_force_early_discount
+#: model:ir.model.fields,help:account_force_early_discount.field_account_payment_register__force_early_discount
+msgid ""
+"Force early payment discount even if the date is past and the flag is not set on the invoices.\n"
+"Note that early payment discounts will be applied for invoices havingthe flag set, even if this checkbox is not marked."
+msgstr ""
+"Примусово застосовувати знижку за дострокову оплату, навіть якщо дата минула і прапорець у рахунках-фактурах не встановлено.\n"
+"Зауважте, що знижки за дострокову оплату застосовуватимуться до рахунків-фактур із установленим прапорцем, навіть якщо цей параметр не позначено."
+
+#. module: account_force_early_discount
+#: model:ir.model.fields,help:account_force_early_discount.field_account_bank_statement_line__force_early_discount
+#: model:ir.model.fields,help:account_force_early_discount.field_account_move__force_early_discount
+msgid ""
+"If marked, early payment discount will be applied even if the discount date "
+"is passed"
+msgstr ""
+"Якщо позначено, знижка за ранню оплату застосовуватиметься навіть після дати"
+" знижки"

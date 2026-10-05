@@ -21,7 +21,7 @@ msgstr ""
 #. module: account_due_list_days_overdue
 #: model:ir.model,name:account_due_list_days_overdue.model_account_overdue_term
 msgid "Account Overdue Term"
-msgstr ""
+msgstr "Термін простроченого рахунку"
 
 #. module: account_due_list_days_overdue
 #: model:ir.model.fields,field_description:account_due_list_days_overdue.field_account_overdue_term__create_uid

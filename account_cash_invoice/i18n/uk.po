@@ -104,3 +104,8 @@ msgstr "Сплатити рахунок"
 #: model_terms:ir.ui.view,arch_db:account_cash_invoice.view_cash_pay_invoice_form
 msgid "Pay invoice"
 msgstr "Сплатити рахунок"
+
+#. module: account_cash_invoice
+#: model:ir.model,name:account_cash_invoice.model_cash_pay_invoice
+msgid "Cash Pay invoice from bank statement"
+msgstr "Рахунок готівкової оплати з банківської виписки"

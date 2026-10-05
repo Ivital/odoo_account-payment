@@ -246,3 +246,22 @@ msgstr "Сума списання у валюті"
 #: model:ir.model.fields,field_description:account_payment_line.field_account_payment__writeoff_account_id
 msgid "Write-off Account"
 msgstr "Рахунок списання"
+
+#. module: account_payment_line
+#: model:ir.model,name:account_payment_line.model_account_payment_counterpart_line
+msgid "Counterpart line payment"
+msgstr "Контррядок платежу"
+
+#. module: account_payment_line
+#: model:ir.model,name:account_payment_line.model_account_payment_counterpart_line_abstract
+msgid "Counterpart line payment Abstract"
+msgstr "Абстрактний контррядок платежу"
+
+#. module: account_payment_line
+#: model:ir.model.fields,help:account_payment_line.field_account_payment__line_payment_counterpart_ids
+msgid ""
+"Use these lines to add matching lines, for example in a creditcard payment, "
+"financing interest or commission is added"
+msgstr ""
+"Використовуйте ці рядки для додавання рядків зіставлення, наприклад у "
+"платежі кредитною карткою додаються відсотки фінансування або комісія"

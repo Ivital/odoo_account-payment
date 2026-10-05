@@ -32,7 +32,7 @@ msgstr ""
 #. module: account_payment_term_extension
 #: model:ir.model.fields,help:account_payment_term_extension.field_account_payment_term__sequential_lines
 msgid "Allows to apply a chronological order on lines."
-msgstr ""
+msgstr "Дозволяє застосовувати хронологічний порядок до рядків."
 
 #. module: account_payment_term_extension
 #: model:ir.model.fields,field_description:account_payment_term_extension.field_account_payment_term_line__amount_round
@@ -43,7 +43,7 @@ msgstr "Округлення суми"
 #: model:ir.model.fields,help:account_payment_term_extension.field_res_company__payment_terms_delay_type
 #: model:ir.model.fields,help:account_payment_term_extension.field_res_config_settings__payment_terms_delay_type
 msgid "Choose the type of delay when creating new payment terms."
-msgstr ""
+msgstr "Виберіть тип затримки під час створення нових умов оплати."
 
 #. module: account_payment_term_extension
 #: model:ir.model,name:account_payment_term_extension.model_res_company
@@ -155,7 +155,7 @@ msgstr "Платіж"
 #. module: account_payment_term_extension
 #: model:ir.model,name:account_payment_term_extension.model_account_payment_term_holiday
 msgid "Payment Term Holidays"
-msgstr ""
+msgstr "Свята для умов оплати"
 
 #. module: account_payment_term_extension
 #: model:ir.model,name:account_payment_term_extension.model_account_payment_term
@@ -221,6 +221,8 @@ msgid ""
 "Put here the day or days when the partner makes the payment. Separate each "
 "possible payment day with dashes (-), commas (,) or spaces ( )."
 msgstr ""
+"Вкажіть тут день або дні, коли партнер здійснює оплату. Розділяйте можливі "
+"дні платежу дефісами (-), комами (,) або пробілами ( )."
 
 #. module: account_payment_term_extension
 #: model:ir.model.fields,help:account_payment_term_extension.field_account_payment_term_line__value
@@ -240,7 +242,7 @@ msgstr "Послідовні рядки"
 #. module: account_payment_term_extension
 #: model:ir.model.fields,help:account_payment_term_extension.field_account_payment_term_line__amount_round
 msgid "Sets the amount so that it is a multiple of this value."
-msgstr ""
+msgstr "Задає суму так, щоб вона була кратною цьому значенню."
 
 #. module: account_payment_term_extension
 #. odoo-python

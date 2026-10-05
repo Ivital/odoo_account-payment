@@ -120,3 +120,23 @@ msgstr "Відняти аналітичний розподіл"
 #: model:ir.model.fields.selection,name:account_payment_multi_deduction.selection__account_payment_register__payment_difference_handling__reconcile_multi_deduct
 msgid "Mark invoice as fully paid (multi deduct)"
 msgstr "Позначити рахунок як повністю оплачений (кілька списань)"
+
+#. module: account_payment_multi_deduction
+#: model:ir.model.fields,help:account_payment_multi_deduction.field_account_payment_deduction__is_open
+msgid "Keep this line open"
+msgstr "Залишити цей рядок відкритим"
+
+#. module: account_payment_multi_deduction
+#: model:ir.model,name:account_payment_multi_deduction.model_account_payment_deduction
+msgid "Payment Deduction"
+msgstr "Вирахування платежу"
+
+#. module: account_payment_multi_deduction
+#: model:ir.model.fields,help:account_payment_multi_deduction.field_account_payment_register__deduction_ids
+msgid "Sum of deduction amount(s) must equal to the payment difference"
+msgstr "Сума відрахувань має дорівнювати різниці платежу"
+
+#. module: account_payment_multi_deduction
+#: model:ir.model.fields,help:account_payment_multi_deduction.field_account_payment_deduction__currency_id
+msgid "The payment's currency."
+msgstr "Валюта платежу."

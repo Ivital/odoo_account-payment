@@ -27,3 +27,9 @@ msgstr "Зареєструвати платіж"
 #: model:ir.model.fields,field_description:account_move_line_payment.field_account_move_line__pending_due_date
 msgid "Remaining due days"
 msgstr "Залишок днів до сплати"
+
+#. module: account_move_line_payment
+#: model:ir.model.fields,help:account_move_line_payment.field_account_move_line__pending_due_date
+msgid "The date when the payment is due, or empty if it's done."
+msgstr ""
+"Дата, коли платіж має бути виконаний, або порожньо, якщо його завершено."

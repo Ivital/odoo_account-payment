@@ -131,3 +131,49 @@ msgstr "Сповістити партнерів"
 #: model:ir.model.fields.selection,name:account_payment_notification.selection__res_company__account_payment_notification_automatic__auto
 msgid "Notify automatically"
 msgstr "Сповіщати автоматично"
+
+#. module: account_payment_notification
+#: model:sms.template,body:account_payment_notification.sms_template_notification
+msgid ""
+"Dear {{ object.partner_id.name }}, the {{ 'debit' if object.payment_type == "
+"'inbound' else 'payment' }} order of your {{ 'invoice(s)' if "
+"object.reconciled_invoices_type == 'invoice' else 'credit note(s)' }} ({{ "
+"\", \".join(object.reconciled_bill_ids.mapped(lambda rec: rec.ref or "
+"rec.name) + object.reconciled_invoice_ids.mapped(\"name\")) }}) for the "
+"total amount of {{ format_amount(object.amount, object.currency_id, "
+"object.partner_id.lang) }} was processed and sent to the bank. Thanks for "
+"your cooperation! -- {{ object.company_id.name }}"
+msgstr ""
+"Шановний(-а) {{ object.partner_id.name }}, доручення {{ 'debit' if "
+"object.payment_type == 'inbound' else 'payment' }} за вашими {{ 'invoice(s)'"
+" if object.reconciled_invoices_type == 'invoice' else 'credit note(s)' }} "
+"({{ \", \".join(object.reconciled_bill_ids.mapped(lambda rec: rec.ref or "
+"rec.name) + object.reconciled_invoice_ids.mapped(\"name\")) }}) на загальну "
+"суму {{ format_amount(object.amount, object.currency_id, "
+"object.partner_id.lang) }} було оброблено й надіслано до банку. Дякуємо за "
+"співпрацю! -- {{ object.company_id.name }}"
+
+#. module: account_payment_notification
+#: model:ir.model.fields,help:account_payment_notification.field_res_company__account_payment_notification_required
+#: model:ir.model.fields,help:account_payment_notification.field_res_config_settings__account_payment_notification_required
+msgid ""
+"Enable to forbid marking payments as sent if they cannot be notified using "
+"the chosen method(s)."
+msgstr ""
+"Увімкніть, щоб заборонити позначати платежі як надіслані, якщо про них "
+"неможливо сповістити вибраним методом."
+
+#. module: account_payment_notification
+#: model:mail.template,name:account_payment_notification.mail_template_notification
+#: model:sms.template,name:account_payment_notification.sms_template_notification
+msgid "Payment notification"
+msgstr "Сповіщення про платіж"
+
+#. module: account_payment_notification
+#: model:mail.template,subject:account_payment_notification.mail_template_notification
+msgid ""
+"{{ object.company_id.name }} Payment Notification (Ref {{ object.name or "
+"'n/a' }})"
+msgstr ""
+"{{ object.company_id.name }} Сповіщення про платіж (Ref {{ object.name or "
+"'n/a' }})"

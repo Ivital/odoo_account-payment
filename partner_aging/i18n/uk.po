@@ -211,3 +211,18 @@ msgstr "Виберіть дату для старіння контрагента
 #: model_terms:ir.ui.view,arch_db:partner_aging.view_supplier_aging_ad_search
 msgid "Supplier Aging Date wise"
 msgstr "Старіння постачальників за датами"
+
+#. module: partner_aging
+#: model:ir.model,name:partner_aging.model_res_partner_aging_customer
+msgid "Res Partner Aging Customer"
+msgstr "Аналіз заборгованості клієнта"
+
+#. module: partner_aging
+#: model:ir.model,name:partner_aging.model_res_partner_aging_date
+msgid "Res Partner Aging Date"
+msgstr "Дата аналізу заборгованості партнера"
+
+#. module: partner_aging
+#: model:ir.model,name:partner_aging.model_res_partner_aging_supplier
+msgid "Res Partner Aging Supplier"
+msgstr "Аналіз заборгованості постачальника"

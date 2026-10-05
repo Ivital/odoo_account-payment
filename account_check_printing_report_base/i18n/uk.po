@@ -96,3 +96,27 @@ msgstr "Очікуємо на вашу згоду. З повагою."
 #: model_terms:ir.ui.view,arch_db:account_check_printing_report_base.report_check_base_a4_document
 msgid "We attach the list of invoices paid with this check with amount of"
 msgstr "Додаємо список рахунків, оплачених цим чеком, із сумою"
+
+#. module: account_check_printing_report_base
+#: model:ir.model.fields,help:account_check_printing_report_base.field_account_journal__check_print_auto
+msgid ""
+"Default check for the company is printed automatically when invoice payment "
+"is validated"
+msgstr ""
+"Типовий чек компанії друкується автоматично після підтвердження оплати "
+"рахунка"
+
+#. module: account_check_printing_report_base
+#: model:ir.model,name:account_check_printing_report_base.model_report_account_check_printing_report_base_report_check_base
+msgid "Report Check Print"
+msgstr "Перевірка друку звіту"
+
+#. module: account_check_printing_report_base
+#: model:ir.model,name:account_check_printing_report_base.model_report_account_check_printing_report_base_report_check_base_a4
+msgid "Report Check Print for A4"
+msgstr "Перевірка друку звіту для A4"
+
+#. module: account_check_printing_report_base
+#: model:ir.model,name:account_check_printing_report_base.model_report_account_check_printing_report_base_promissory_footer_a4
+msgid "Report Promissory Note Print for A4"
+msgstr "Звіт друку простого векселя для A4"
