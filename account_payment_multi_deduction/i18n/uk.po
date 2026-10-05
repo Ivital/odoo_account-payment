@@ -67,3 +67,46 @@ msgstr "Відкрити"
 #: model:ir.model.fields,field_description:account_payment_multi_deduction.field_account_payment_register__deduct_residual
 msgid "Remainings"
 msgstr "Залишки"
+
+#. module: account_payment_multi_deduction
+#: model:ir.model.fields,field_description:account_payment_multi_deduction.field_account_payment_deduction__analytic_distribution
+#: model:ir.model.fields,field_description:account_payment_multi_deduction.field_account_payment_register__analytic_distribution
+msgid "Analytic Distribution"
+msgstr "Аналітичний розподіл"
+
+#. module: account_payment_multi_deduction
+#: model:ir.model.fields,field_description:account_payment_multi_deduction.field_account_payment_deduction__analytic_precision
+#: model:ir.model.fields,field_description:account_payment_multi_deduction.field_account_payment_register__analytic_precision
+msgid "Analytic Precision"
+msgstr "Точність аналітики"
+
+#. module: account_payment_multi_deduction
+#: model:ir.model.fields,field_description:account_payment_multi_deduction.field_account_payment_deduction__amount
+msgid "Deduction Amount"
+msgstr "Сума утримання"
+
+#. module: account_payment_multi_deduction
+#: model:ir.model.fields,field_description:account_payment_multi_deduction.field_account_payment_deduction__distribution_analytic_account_ids
+#: model:ir.model.fields,field_description:account_payment_multi_deduction.field_account_payment_register__distribution_analytic_account_ids
+msgid "Distribution Analytic Account"
+msgstr "Аналітичний рахунок розподілу"
+
+#. module: account_payment_multi_deduction
+#: model:ir.model.fields,field_description:account_payment_multi_deduction.field_account_payment_deduction__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_payment_multi_deduction
+#: model:ir.model.fields,field_description:account_payment_multi_deduction.field_account_payment_deduction__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_payment_multi_deduction
+#: model:ir.model.fields,field_description:account_payment_multi_deduction.field_account_payment_deduction__register_payment_id
+msgid "Register Payment"
+msgstr "Зареєструвати платіж"
+
+#. module: account_payment_multi_deduction
+#: model_terms:ir.ui.view,arch_db:account_payment_multi_deduction.view_account_payment_register_form
+msgid "Total Deduction"
+msgstr "Усього утримань"

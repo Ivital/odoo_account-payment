@@ -27,3 +27,18 @@ msgstr "Партнер"
 #: model_terms:ir.ui.view,arch_db:payment_partner.payment_provider_form_view
 msgid "Partners"
 msgstr "Партнери"
+
+#. module: payment_partner
+#: model:ir.model.fields.selection,name:payment_partner.selection__payment_provider__filter_mode__exclude
+msgid "Exclude"
+msgstr "Виключити"
+
+#. module: payment_partner
+#: model:ir.model.fields.selection,name:payment_partner.selection__payment_provider__filter_mode__global
+msgid "Global"
+msgstr "Глобальний"
+
+#. module: payment_partner
+#: model:ir.model.fields.selection,name:payment_partner.selection__payment_provider__filter_mode__include
+msgid "Include"
+msgstr "Включити"

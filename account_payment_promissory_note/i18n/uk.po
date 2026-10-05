@@ -19,3 +19,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_payment_promissory_note.field_account_promissory_note_mixin__date_due
 msgid "Due Date"
 msgstr "Термін оплати"
+
+#. module: account_payment_promissory_note
+#: model:ir.model.fields,field_description:account_payment_promissory_note.field_account_payment__promissory_note
+#: model:ir.model.fields,field_description:account_payment_promissory_note.field_account_payment_register__promissory_note
+#: model:ir.model.fields,field_description:account_payment_promissory_note.field_account_promissory_note_mixin__promissory_note
+#: model_terms:ir.ui.view,arch_db:account_payment_promissory_note.view_account_payment_search
+msgid "Promissory Note"
+msgstr "Вексель"

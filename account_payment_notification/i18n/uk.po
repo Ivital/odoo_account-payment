@@ -17,3 +17,73 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_payment_notification.field_account_payment__mobile
 msgid "Mobile"
 msgstr "Мобільний"
+
+#. module: account_payment_notification
+#: model:ir.model.fields.selection,name:account_payment_notification.selection__res_company__account_payment_notification_method__sms_only
+msgid "By SMS"
+msgstr "Через SMS"
+
+#. module: account_payment_notification
+#: model:ir.model.fields.selection,name:account_payment_notification.selection__res_company__account_payment_notification_method__email_only
+msgid "By email"
+msgstr "Електронною поштою"
+
+#. module: account_payment_notification
+#: model:ir.model.fields,help:account_payment_notification.field_res_company__account_payment_notification_automatic
+#: model:ir.model.fields,help:account_payment_notification.field_res_config_settings__account_payment_notification_automatic
+#: model_terms:ir.ui.view,arch_db:account_payment_notification.res_config_settings_view_form
+msgid "Choose the automatism level when notifying sent payments."
+msgstr "Виберіть рівень автоматизації для сповіщення про надіслані платежі."
+
+#. module: account_payment_notification
+#: model:ir.model.fields,help:account_payment_notification.field_res_company__account_payment_notification_method
+#: model:ir.model.fields,help:account_payment_notification.field_res_config_settings__account_payment_notification_method
+#: model_terms:ir.ui.view,arch_db:account_payment_notification.res_config_settings_view_form
+msgid ""
+"Choose the method to notify payments automatically when marked as sent."
+msgstr ""
+"Виберіть спосіб автоматичного сповіщення про платежі, позначені як "
+"надіслані."
+
+#. module: account_payment_notification
+#: model_terms:ir.ui.view,arch_db:account_payment_notification.view_account_payment_search
+msgid "Has email"
+msgstr "Має електронну пошту"
+
+#. module: account_payment_notification
+#: model_terms:ir.ui.view,arch_db:account_payment_notification.view_account_payment_search
+msgid "Has mobile phone"
+msgstr "Має мобільний телефон"
+
+#. module: account_payment_notification
+#: model_terms:ir.ui.view,arch_db:account_payment_notification.view_account_payment_search
+msgid "Has no email"
+msgstr "Немає електронної пошти"
+
+#. module: account_payment_notification
+#: model:ir.actions.act_window,name:account_payment_notification.action_notifiy_sms_single
+msgid "Notifiy by SMS"
+msgstr "Повідомити SMS"
+
+#. module: account_payment_notification
+#: model:ir.model.fields.selection,name:account_payment_notification.selection__res_company__account_payment_notification_automatic__manual
+msgid "Notify manually"
+msgstr "Повідомити вручну"
+
+#. module: account_payment_notification
+#: model:ir.model.fields,field_description:account_payment_notification.field_res_company__account_payment_notification_method
+#: model:ir.model.fields,field_description:account_payment_notification.field_res_config_settings__account_payment_notification_method
+msgid "Payment notification method"
+msgstr "Метод сповіщення про платіж"
+
+#. module: account_payment_notification
+#: model:ir.model.fields,field_description:account_payment_notification.field_res_company__account_payment_notification_automatic
+#: model:ir.model.fields,field_description:account_payment_notification.field_res_config_settings__account_payment_notification_automatic
+msgid "Payment notifications automatism"
+msgstr "Автоматизація сповіщень про платежі"
+
+#. module: account_payment_notification
+#: model:ir.model.fields,field_description:account_payment_notification.field_res_company__account_payment_notification_required
+#: model:ir.model.fields,field_description:account_payment_notification.field_res_config_settings__account_payment_notification_required
+msgid "Require payment notifications"
+msgstr "Вимагати сповіщення про платежі"

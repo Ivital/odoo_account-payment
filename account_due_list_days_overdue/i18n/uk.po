@@ -36,7 +36,7 @@ msgstr "Дата створення"
 #. module: account_due_list_days_overdue
 #: model:ir.model.fields,field_description:account_due_list_days_overdue.field_account_move_line__days_overdue
 msgid "Days overdue"
-msgstr ""
+msgstr "Днів прострочення"
 
 #. module: account_due_list_days_overdue
 #: model:ir.model.fields,field_description:account_due_list_days_overdue.field_account_overdue_term__display_name
@@ -82,7 +82,7 @@ msgstr "Назва"
 #: model_terms:ir.ui.view,arch_db:account_due_list_days_overdue.view_account_overdue_term_form
 #: model_terms:ir.ui.view,arch_db:account_due_list_days_overdue.view_account_overdue_term_search
 msgid "Overdue Term"
-msgstr ""
+msgstr "Строк прострочення"
 
 #. module: account_due_list_days_overdue
 #. odoo-python
@@ -100,7 +100,7 @@ msgstr "Прострочені умови"
 #. module: account_due_list_days_overdue
 #: model:ir.model.fields,field_description:account_due_list_days_overdue.field_account_overdue_term__tech_name
 msgid "Technical name"
-msgstr ""
+msgstr "Технічна назва"
 
 #. module: account_due_list_days_overdue
 #: model:ir.model.fields,field_description:account_due_list_days_overdue.field_account_overdue_term__to_day

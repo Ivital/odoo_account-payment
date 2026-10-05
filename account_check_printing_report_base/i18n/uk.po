@@ -29,3 +29,25 @@ msgstr "Термін оплати"
 #: model_terms:ir.ui.view,arch_db:account_check_printing_report_base.report_check_base_a4_document
 msgid "Payment"
 msgstr "Платіж"
+
+#. module: account_check_printing_report_base
+#: model_terms:ir.ui.view,arch_db:account_check_printing_report_base.report_check_base
+#: model_terms:ir.ui.view,arch_db:account_check_printing_report_base.report_check_base_a4_document
+msgid "Balance Due"
+msgstr "Залишок до сплати"
+
+#. module: account_check_printing_report_base
+#: model_terms:ir.ui.view,arch_db:account_check_printing_report_base.report_check_base_a4_document
+msgid "Dear partner"
+msgstr "Шановний контрагенте"
+
+#. module: account_check_printing_report_base
+#: model_terms:ir.ui.view,arch_db:account_check_printing_report_base.report_check_base_a4_document
+msgid "Invoice date"
+msgstr "Дата рахунку"
+
+#. module: account_check_printing_report_base
+#: model_terms:ir.ui.view,arch_db:account_check_printing_report_base.report_check_base
+#: model_terms:ir.ui.view,arch_db:account_check_printing_report_base.report_check_base_a4_document
+msgid "Original Amount"
+msgstr "Початкова сума"

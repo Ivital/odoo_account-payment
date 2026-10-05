@@ -136,3 +136,63 @@ msgstr "Аналіз заборгованості постачальників"
 #: model_terms:ir.ui.view,arch_db:partner_aging.view_supplier_aging_ad_search
 msgid "Total"
 msgstr "Разом"
+
+#. module: partner_aging
+#: model:ir.model.fields,field_description:partner_aging.field_res_partner_aging_customer__avg_days_overdue
+#: model:ir.model.fields,field_description:partner_aging.field_res_partner_aging_supplier__avg_days_overdue
+msgid "Avg Days Overdue"
+msgstr "Середня кількість днів прострочення"
+
+#. module: partner_aging
+#: model_terms:ir.ui.view,arch_db:partner_aging.view_partner_aging_date
+#: model_terms:ir.ui.view,arch_db:partner_aging.view_supplier_aging_date
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: partner_aging
+#: model:ir.actions.act_window,name:partner_aging.action_customer_aging_list
+#: model_terms:ir.ui.view,arch_db:partner_aging.view_customer_aging_ad_search
+msgid "Customer Aging Date wise"
+msgstr "Віковий аналіз клієнта за датою"
+
+#. module: partner_aging
+#: model:ir.model.fields,field_description:partner_aging.field_res_partner_aging_customer__max_days_overdue
+#: model:ir.model.fields,field_description:partner_aging.field_res_partner_aging_supplier__max_days_overdue
+msgid "Days Outstanding"
+msgstr "Днів непогашення"
+
+#. module: partner_aging
+#: model_terms:ir.ui.view,arch_db:partner_aging.view_customer_aging_ad_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: partner_aging
+#: model_terms:ir.ui.view,arch_db:partner_aging.view_supplier_aging_ad_search
+msgid "Group By..."
+msgstr "Групувати за..."
+
+#. module: partner_aging
+#: model:ir.model.fields,field_description:partner_aging.field_res_partner_aging_date__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: partner_aging
+#: model:ir.model.fields,field_description:partner_aging.field_res_partner_aging_date__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: partner_aging
+#: model_terms:ir.ui.view,arch_db:partner_aging.view_customer_aging_ad_list
+#: model_terms:ir.ui.view,arch_db:partner_aging.view_supplier_aging_ad_list
+msgid "Open Document"
+msgstr "Відкрити документ"
+
+#. module: partner_aging
+#: model:ir.model.fields,field_description:partner_aging.field_res_partner_aging_supplier__invoice_ref
+msgid "Their Invoice"
+msgstr "Їхній рахунок"
+
+#. module: partner_aging
+#: model_terms:ir.ui.view,arch_db:partner_aging.view_supplier_aging_date
+msgid "or"
+msgstr "або"

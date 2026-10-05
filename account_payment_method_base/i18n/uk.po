@@ -39,3 +39,13 @@ msgstr "Тип платежу"
 #: model:ir.ui.menu,name:account_payment_method_base.account_payment_method_menu
 msgid "Technical Payment Methods"
 msgstr "Технічні способи оплати"
+
+#. module: account_payment_method_base
+#: model_terms:ir.ui.view,arch_db:account_payment_method_base.account_payment_method_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: account_payment_method_base
+#: model_terms:ir.ui.view,arch_db:account_payment_method_base.account_payment_method_search
+msgid "Name or Code"
+msgstr "Назва або код"

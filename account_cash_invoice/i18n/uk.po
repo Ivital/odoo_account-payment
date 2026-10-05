@@ -73,3 +73,34 @@ msgstr "Номер"
 #: model:ir.model.fields.selection,name:account_cash_invoice.selection__cash_pay_invoice__invoice_type__vendor
 msgid "Vendor"
 msgstr "Постачальник"
+
+#. module: account_cash_invoice
+#: model_terms:ir.ui.view,arch_db:account_cash_invoice.view_cash_pay_invoice_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_cash_invoice
+#: model:ir.model.fields,field_description:account_cash_invoice.field_cash_pay_invoice__invoice_domain
+msgid "Invoice Domain"
+msgstr "Домен рахунка"
+
+#. module: account_cash_invoice
+#: model:ir.model.fields,field_description:account_cash_invoice.field_cash_pay_invoice__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_cash_invoice
+#: model:ir.model.fields,field_description:account_cash_invoice.field_cash_pay_invoice__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_cash_invoice
+#: model_terms:ir.ui.view,arch_db:account_cash_invoice.account_journal_dashboard_kanban_view
+msgid "Pay Invoice"
+msgstr "Сплатити рахунок"
+
+#. module: account_cash_invoice
+#: model:ir.actions.act_window,name:account_cash_invoice.action_cash_pay_invoice_from_statement
+#: model_terms:ir.ui.view,arch_db:account_cash_invoice.view_cash_pay_invoice_form
+msgid "Pay invoice"
+msgstr "Сплатити рахунок"
