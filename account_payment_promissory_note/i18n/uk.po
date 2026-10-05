@@ -27,3 +27,14 @@ msgstr "Термін оплати"
 #: model_terms:ir.ui.view,arch_db:account_payment_promissory_note.view_account_payment_search
 msgid "Promissory Note"
 msgstr "Вексель"
+
+#. module: account_payment_promissory_note
+#: model_terms:ir.ui.view,arch_db:account_payment_promissory_note.view_account_payment_form_multi
+msgid ""
+"<span class=\"text-muted\" invisible=\"not promissory_note\">\n"
+"                    Set date due to all payments or empty to select last date due of each partner invoices group\n"
+"                </span>"
+msgstr ""
+"<span class=\"text-muted\" invisible=\"not promissory_note\">\n"
+"                    Установіть дату погашення для всіх платежів або залиште порожньою, щоб вибрати останню дату погашення для кожної групи рахунків контрагента\n"
+"                </span>"

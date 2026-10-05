@@ -110,3 +110,13 @@ msgstr "Зареєструвати платіж"
 #: model_terms:ir.ui.view,arch_db:account_payment_multi_deduction.view_account_payment_register_form
 msgid "Total Deduction"
 msgstr "Усього утримань"
+
+#. module: account_payment_multi_deduction
+#: model:ir.model.fields,field_description:account_payment_multi_deduction.field_account_payment_register__deduct_analytic_distribution
+msgid "Deduct Analytic Distribution"
+msgstr "Відняти аналітичний розподіл"
+
+#. module: account_payment_multi_deduction
+#: model:ir.model.fields.selection,name:account_payment_multi_deduction.selection__account_payment_register__payment_difference_handling__reconcile_multi_deduct
+msgid "Mark invoice as fully paid (multi deduct)"
+msgstr "Позначити рахунок як повністю оплачений (кілька списань)"

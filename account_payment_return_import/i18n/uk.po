@@ -80,3 +80,31 @@ msgstr "Повернення платежу"
 #: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_line__raw_import_data
 msgid "Raw Import Data"
 msgstr "Сирі дані імпорту"
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__hide_journal_field
+msgid "Hide the journal field in the view"
+msgstr "Приховати поле журналу у поданні"
+
+#. module: account_payment_return_import
+#: model_terms:ir.ui.view,arch_db:account_payment_return_import.account_payment_return_import_view
+msgid ""
+"How to import your payment return :<br/>\n"
+"                    1. Download your Payment Return file from your bank website.<br/>\n"
+"                    2. Make sure you have installed the right module to support the file format.<br/>\n"
+"                    3. Select the file and click 'Import'."
+msgstr ""
+"Як імпортувати повернення платежу:<br/>\n"
+"                    1. Завантажте файл повернення платежу з вебсайту вашого банку.<br/>\n"
+"                    2. Переконайтеся, що встановлено правильний модуль для підтримки формату файлу.<br/>\n"
+"                    3. Виберіть файл і натисніть «Імпортувати»."
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__match_after_import
+msgid "Match After Import"
+msgstr "Зіставляти після імпорту"
+
+#. module: account_payment_return_import
+#: model:ir.model.fields,field_description:account_payment_return_import.field_payment_return_import__data_file
+msgid "Payment Return File"
+msgstr "Файл повернення платежу"

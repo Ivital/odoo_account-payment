@@ -196,3 +196,18 @@ msgstr "Їхній рахунок"
 #: model_terms:ir.ui.view,arch_db:partner_aging.view_supplier_aging_date
 msgid "or"
 msgstr "або"
+
+#. module: partner_aging
+#: model_terms:ir.ui.view,arch_db:partner_aging.view_supplier_aging_date
+msgid "Choose date for Supplier Aging"
+msgstr "Виберіть дату старіння постачальника"
+
+#. module: partner_aging
+#: model_terms:ir.ui.view,arch_db:partner_aging.view_partner_aging_date
+msgid "Choose date for partner Aging"
+msgstr "Виберіть дату для старіння контрагента"
+
+#. module: partner_aging
+#: model_terms:ir.ui.view,arch_db:partner_aging.view_supplier_aging_ad_search
+msgid "Supplier Aging Date wise"
+msgstr "Старіння постачальників за датами"

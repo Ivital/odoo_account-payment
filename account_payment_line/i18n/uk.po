@@ -195,3 +195,54 @@ msgstr "Сума списання"
 #: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line_abstract__writeoff_amount_currency
 msgid "Writeoff Amount Currency"
 msgstr "Валюта суми списання"
+
+#. module: account_payment_line
+#: model_terms:ir.ui.view,arch_db:account_payment_line.view_inherit_account_payment_form
+msgid "Delete Counterpart Lines"
+msgstr "Видалити кореспондуючі рядки"
+
+#. module: account_payment_line
+#: model_terms:ir.ui.view,arch_db:account_payment_line.view_inherit_account_payment_form
+msgid "Propose Payment Distribution"
+msgstr "Запропонувати розподіл платежу"
+
+#. module: account_payment_line
+#: model_terms:ir.ui.view,arch_db:account_payment_line.view_account_payment_line_tree
+msgid "Residual Currency"
+msgstr "Залишкова валюта"
+
+#. module: account_payment_line
+#: model:ir.model.fields,help:account_payment_line.field_account_payment_counterpart_line__aml_date_maturity
+#: model:ir.model.fields,help:account_payment_line.field_account_payment_counterpart_line_abstract__aml_date_maturity
+msgid ""
+"This field is used for payable and receivable journal entries. You can put "
+"the limit date for the payment of this line."
+msgstr ""
+"Це поле використовується для журнальних записів кредиторської та "
+"дебіторської заборгованості. Тут можна вказати граничну дату оплати цього "
+"рядка."
+
+#. module: account_payment_line
+#: model_terms:ir.ui.view,arch_db:account_payment_line.view_account_payment_line_tree
+msgid "Total Amount Company Currency"
+msgstr "Загальна сума у валюті компанії"
+
+#. module: account_payment_line
+#: model_terms:ir.ui.view,arch_db:account_payment_line.view_account_payment_line_tree
+msgid "Total Due Currency"
+msgstr "Загальна сума до сплати у валюті"
+
+#. module: account_payment_line
+#: model_terms:ir.ui.view,arch_db:account_payment_line.view_account_payment_line_tree
+msgid "Write-Off amount"
+msgstr "Сума списання"
+
+#. module: account_payment_line
+#: model_terms:ir.ui.view,arch_db:account_payment_line.view_account_payment_line_tree
+msgid "Write-Off amount currency"
+msgstr "Сума списання у валюті"
+
+#. module: account_payment_line
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment__writeoff_account_id
+msgid "Write-off Account"
+msgstr "Рахунок списання"

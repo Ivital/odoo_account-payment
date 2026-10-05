@@ -22,3 +22,8 @@ msgstr "Я приймаю"
 #: model_terms:ir.ui.view,arch_db:payment_require_legal.payment_form
 msgid "terms and conditions"
 msgstr "умови та положення"
+
+#. module: payment_require_legal
+#: model:ir.model.fields,field_description:payment_require_legal.field_payment_transaction__legal_terms_acceptance_metadata
+msgid "Legal Terms Acceptance Metadata"
+msgstr "Метадані прийняття юридичних умов"

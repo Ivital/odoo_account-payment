@@ -51,3 +51,48 @@ msgstr "Дата рахунку"
 #: model_terms:ir.ui.view,arch_db:account_check_printing_report_base.report_check_base_a4_document
 msgid "Original Amount"
 msgstr "Початкова сума"
+
+#. module: account_check_printing_report_base
+#: model_terms:ir.ui.view,arch_db:account_check_printing_report_base.report_check_base
+msgid "<b>Check Amount:</b>"
+msgstr "<b>Сума чека:</b>"
+
+#. module: account_check_printing_report_base
+#: model:ir.model.fields,field_description:account_check_printing_report_base.field_account_journal__check_print_auto
+msgid "Automatic check printing"
+msgstr "Автоматичний друк чеків"
+
+#. module: account_check_printing_report_base
+#: model_terms:ir.ui.view,arch_db:account_check_printing_report_base.report_check_base_a4_document
+msgid "Invoice / Reference"
+msgstr "Рахунок / Посилання"
+
+#. module: account_check_printing_report_base
+#: model:ir.actions.report,name:account_check_printing_report_base.action_report_check_base
+msgid "Payment Check Base"
+msgstr "База платіжного чека"
+
+#. module: account_check_printing_report_base
+#: model:ir.actions.report,name:account_check_printing_report_base.action_report_check_base_a4
+msgid "Payment Check Base A4"
+msgstr "База платіжного чека A4"
+
+#. module: account_check_printing_report_base
+#: model:ir.model.fields.selection,name:account_check_printing_report_base.selection__res_company__account_check_printing_layout__account_check_printing_report_base_action_report_check_base
+msgid "Print Check Base"
+msgstr "База друку чека"
+
+#. module: account_check_printing_report_base
+#: model:ir.model.fields.selection,name:account_check_printing_report_base.selection__res_company__account_check_printing_layout__account_check_printing_report_base_action_report_check_base_a4
+msgid "Print Check Base A4"
+msgstr "База друку чека A4"
+
+#. module: account_check_printing_report_base
+#: model_terms:ir.ui.view,arch_db:account_check_printing_report_base.report_check_base_a4_document
+msgid "Waiting for your agreement, regards."
+msgstr "Очікуємо на вашу згоду. З повагою."
+
+#. module: account_check_printing_report_base
+#: model_terms:ir.ui.view,arch_db:account_check_printing_report_base.report_check_base_a4_document
+msgid "We attach the list of invoices paid with this check with amount of"
+msgstr "Додаємо список рахунків, оплачених цим чеком, із сумою"

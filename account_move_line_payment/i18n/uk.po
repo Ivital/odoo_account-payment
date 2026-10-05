@@ -22,3 +22,8 @@ msgstr "Прострочено"
 #: model:ir.actions.act_window,name:account_move_line_payment.action_pay
 msgid "Register Payment"
 msgstr "Зареєструвати платіж"
+
+#. module: account_move_line_payment
+#: model:ir.model.fields,field_description:account_move_line_payment.field_account_move_line__pending_due_date
+msgid "Remaining due days"
+msgstr "Залишок днів до сплати"

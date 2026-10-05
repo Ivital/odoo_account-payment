@@ -161,3 +161,28 @@ msgstr "Загальний залишок"
 #: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
 msgid "Unposted"
 msgstr "Не проведено"
+
+#. module: account_due_list
+#: model:ir.model.fields,field_description:account_due_list.field_account_move_line__invoice_user_id
+msgid "Invoice salesperson"
+msgstr "Продавець рахунку"
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Not Full Reconciled"
+msgstr "Не повністю узгоджено"
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_filter
+msgid "Partial reconciled"
+msgstr "Частково узгоджено"
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_tree
+msgid "Total Residual Currency"
+msgstr "Загальна залишкова сума у валюті"
+
+#. module: account_due_list
+#: model_terms:ir.ui.view,arch_db:account_due_list.view_payments_tree
+msgid "Total amount currency"
+msgstr "Загальна сума у валюті"

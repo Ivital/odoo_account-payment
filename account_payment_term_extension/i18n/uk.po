@@ -58,7 +58,7 @@ msgstr ""
 #. module: account_payment_term_extension
 #: model_terms:ir.ui.view,arch_db:account_payment_term_extension.res_config_settings_view_form
 msgid "Configure the type of delay for payment terms."
-msgstr ""
+msgstr "Налаштувати тип затримки для умов оплати."
 
 #. module: account_payment_term_extension
 #: model:ir.model.fields,field_description:account_payment_term_extension.field_account_payment_term_holiday__create_uid
@@ -95,7 +95,7 @@ msgstr "Дні та тижні"
 #. module: account_payment_term_extension
 #: model:ir.model.fields.selection,name:account_payment_term_extension.selection__res_company__payment_terms_delay_type__weeks_and_months
 msgid "Days, Weeks and Months"
-msgstr ""
+msgstr "Дні, тижні та місяці"
 
 #. module: account_payment_term_extension
 #: model:ir.model.fields,field_description:account_payment_term_extension.field_account_payment_term_line__delay_type
@@ -166,7 +166,7 @@ msgstr "Умови оплати"
 #. module: account_payment_term_extension
 #: model_terms:ir.ui.view,arch_db:account_payment_term_extension.res_config_settings_view_form
 msgid "Payment Terms Delay Types"
-msgstr ""
+msgstr "Типи затримки умов оплати"
 
 #. module: account_payment_term_extension
 #: model:ir.model,name:account_payment_term_extension.model_account_payment_term_line
@@ -194,7 +194,7 @@ msgstr "Типи затримки умов оплати"
 #. module: account_payment_term_extension
 #: model:ir.model.fields.selection,name:account_payment_term_extension.selection__account_payment_term_line__value__percent_amount_untaxed
 msgid "Percent (Untaxed amount)"
-msgstr ""
+msgstr "Відсоток (сума без податків)"
 
 #. module: account_payment_term_extension
 #. odoo-python
@@ -230,12 +230,12 @@ msgstr ""
 #. module: account_payment_term_extension
 #: model_terms:ir.ui.view,arch_db:account_payment_term_extension.res_config_settings_view_form
 msgid "Select the Delay Type options that will be available in Payment Terms."
-msgstr ""
+msgstr "Виберіть варіанти типу затримки, доступні в умовах оплати."
 
 #. module: account_payment_term_extension
 #: model:ir.model.fields,field_description:account_payment_term_extension.field_account_payment_term__sequential_lines
 msgid "Sequential Lines"
-msgstr ""
+msgstr "Послідовні рядки"
 
 #. module: account_payment_term_extension
 #: model:ir.model.fields,help:account_payment_term_extension.field_account_payment_term_line__amount_round
@@ -260,6 +260,7 @@ msgid ""
 "When a payment term coincides with a holiday, it is postponed to the chosen "
 "date."
 msgstr ""
+"Якщо строк оплати припадає на свято, його переноситься на вибрану дату."
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

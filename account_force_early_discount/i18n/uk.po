@@ -24,3 +24,18 @@ msgstr "Показувати примусову ранню знижку"
 #: model:ir.model.fields,field_description:account_force_early_discount.field_account_move__force_early_discount
 msgid "Force early payment discount"
 msgstr "Примусова знижка за ранню оплату"
+
+#. module: account_force_early_discount
+#: model:ir.model.fields,field_description:account_force_early_discount.field_account_payment_register__force_early_discount
+msgid "Apply Early Payment Discount Past Date"
+msgstr "Застосувати знижку за ранню оплату після дати"
+
+#. module: account_force_early_discount
+#: model:ir.model.fields,field_description:account_force_early_discount.field_account_payment_register__show_force_early_discount
+msgid "Show Force Early Discount"
+msgstr "Показувати примусову ранню знижку"
+
+#. module: account_force_early_discount
+#: model:ir.model.fields,field_description:account_force_early_discount.field_account_payment_register__with_forced_early_discount
+msgid "With Forced Early Discount"
+msgstr "Із примусовою ранньою знижкою"

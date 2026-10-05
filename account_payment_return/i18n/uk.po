@@ -282,3 +282,74 @@ msgstr "Загальна сума"
 #: model:ir.model.fields,field_description:account_payment_return.field_payment_return__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: account_payment_return
+#: model:ir.model.fields,field_description:account_payment_return.field_account_journal__default_expense_account_id
+msgid "Default Charges Account"
+msgstr "Рахунок витрат за замовчуванням"
+
+#. module: account_payment_return
+#: model:ir.model.fields,field_description:account_payment_return.field_account_journal__default_expense_partner_id
+msgid "Default Charges Partner"
+msgstr "Контрагент витрат за замовчуванням"
+
+#. module: account_payment_return
+#: model:ir.model.fields,help:account_payment_return.field_payment_return__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: account_payment_return
+#: model:ir.model.fields,help:account_payment_return.field_payment_return__message_has_error
+#: model:ir.model.fields,help:account_payment_return.field_payment_return__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: account_payment_return
+#: model_terms:ir.ui.view,arch_db:account_payment_return.view_account_invoice_filter
+msgid "Invoices whose payment has been returned"
+msgstr "Рахунки, платіж за якими повернено"
+
+#. module: account_payment_return
+#: model:ir.model.fields,help:account_payment_return.field_payment_return__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: account_payment_return
+#: model:ir.model.fields,help:account_payment_return.field_payment_return__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: account_payment_return
+#: model:ir.model.fields,field_description:account_payment_return.field_account_partial_reconcile__origin_returned_move_ids
+msgid "Origin Returned Move"
+msgstr "Початковий повернений рух"
+
+#. module: account_payment_return
+#: model:ir.model.fields,field_description:account_payment_return.field_account_move_line__partial_reconcile_returned_ids
+msgid "Partial Reconcile Returned"
+msgstr "Часткове узгодження повернено"
+
+#. module: account_payment_return
+#: model:ir.model.fields,field_description:account_payment_return.field_payment_return__payment_method_line_id
+msgid "Payment Method Line"
+msgstr "Рядок способу платежу"
+
+#. module: account_payment_return
+#: model:ir.model.fields,field_description:account_payment_return.field_payment_return__move_id
+msgid "Reference to the created journal entry"
+msgstr "Посилання на створений запис журналу"
+
+#. module: account_payment_return
+#: model:ir.model.fields,field_description:account_payment_return.field_payment_return_line__reason_additional_information
+msgid "Return reason (info)"
+msgstr "Причина повернення (інфо)"
+
+#. module: account_payment_return
+#: model_terms:ir.ui.view,arch_db:account_payment_return.payment_return_form_view
+msgid "Total charges amount"
+msgstr "Загальна сума нарахувань"
+
+#. module: account_payment_return
+#: model:ir.model.fields,help:account_payment_return.field_payment_return__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
