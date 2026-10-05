@@ -9,6 +9,79 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: account_payment_line
-#: model:ir.module.module,shortdesc:base.module_account_payment_line model:ir.module.module,summary:base.module_account_payment_line
+#: model:ir.module.module,shortdesc:base.module_account_payment_line
+#: model:ir.module.module,summary:base.module_account_payment_line
 msgid "Payment Counterpart Lines"
 msgstr "Кореспондуючі рядки платежу"
+
+#. module: account_payment_line
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line__account_id
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line_abstract__account_id
+msgid "Account"
+msgstr "Рахунок"
+
+#. module: account_payment_line
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line__amount
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line_abstract__amount
+msgid "Amount"
+msgstr "Сума"
+
+#. module: account_payment_line
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line__company_id
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line_abstract__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: account_payment_line
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: account_payment_line
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: account_payment_line
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line__currency_id
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line_abstract__currency_id
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: account_payment_line
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line__name
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line_abstract__name
+msgid "Description"
+msgstr "Опис"
+
+#. module: account_payment_line
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: account_payment_line
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line__fully_paid
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line_abstract__fully_paid
+msgid "Fully Paid?"
+msgstr "Повністю оплачено?"
+
+#. module: account_payment_line
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line__partner_id
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line_abstract__partner_id
+msgid "Partner"
+msgstr "Партнер"
+
+#. module: account_payment_line
+#: model:ir.model.fields,field_description:account_payment_line.field_account_payment_counterpart_line__payment_id
+msgid "Payment"
+msgstr "Платіж"
+
+#. module: account_payment_line
+#: model_terms:ir.ui.view,arch_db:account_payment_line.view_account_payment_line_tree
+msgid "Total Amount"
+msgstr "Загальна сума"
+
+#. module: account_payment_line
+#: model_terms:ir.ui.view,arch_db:account_payment_line.view_account_payment_line_tree
+msgid "Total Due"
+msgstr "Загалом до сплати"
