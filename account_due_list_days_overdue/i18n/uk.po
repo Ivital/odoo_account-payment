@@ -89,7 +89,7 @@ msgstr "Строк прострочення"
 #: code:addons/account_due_list_days_overdue/models/account_overdue_term.py:0
 #, python-format
 msgid "Overdue Term %(rec_name)s overlaps with %(overlap_name)s"
-msgstr ""
+msgstr "Прострочений термін %(rec_name)s перекривається з %(overlap_name)s"
 
 #. module: account_due_list_days_overdue
 #: model:ir.actions.act_window,name:account_due_list_days_overdue.action_account_overdue_term_form

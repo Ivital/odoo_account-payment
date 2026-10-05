@@ -18,3 +18,15 @@ msgstr ""
 #: code:addons/account_payment_widget_amount/static/src/xml/account_payment.xml:0
 msgid "Apply"
 msgstr "Застосувати"
+
+#. module: account_payment_widget_amount
+#. odoo-javascript
+#: code:addons/account_payment_widget_amount/static/src/js/account_payment_field.esm.js:0
+msgid "Enter the payment amount"
+msgstr "Введіть суму платежу"
+
+#. module: account_payment_widget_amount
+#. odoo-javascript
+#: code:addons/account_payment_widget_amount/static/src/xml/account_payment.xml:0
+msgid "Paid Amount:"
+msgstr "Сплачена сума:"

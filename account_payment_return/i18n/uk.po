@@ -411,3 +411,71 @@ msgstr "Повернена сума. Може відрізнятися від с
 #: model:ir.model.fields,help:account_payment_return.field_payment_return__date
 msgid "This date will be used as the account entry date."
 msgstr "Цю дату буде використано як дату бухгалтерського запису."
+
+#. module: account_payment_return
+#. odoo-python
+#: code:addons/account_payment_return/models/payment_return.py:0
+msgid "All payments must be owned by the same partner"
+msgstr "Усі платежі мають належати одному партнеру"
+
+#. module: account_payment_return
+#. odoo-python
+#: code:addons/account_payment_return/models/payment_return.py:0
+msgid "Invoice: %s"
+msgstr "Рахунок: %s"
+
+#. module: account_payment_return
+#. odoo-python
+#: code:addons/account_payment_return/models/payment_return.py:0
+msgid "Move lines: %s"
+msgstr "Рядки переміщення: %s"
+
+#. module: account_payment_return
+#. odoo-python
+#: code:addons/account_payment_return/models/payment_return.py:0
+msgid "Move: %s"
+msgstr "Переміщення: %s"
+
+#. module: account_payment_return
+#. odoo-javascript
+#: code:addons/account_payment_return/static/src/xml/account_payment_return.xml:0
+msgid "Payment Info"
+msgstr "Інформація про платіж"
+
+#. module: account_payment_return
+#. odoo-python
+#: code:addons/account_payment_return/models/payment_return.py:0
+msgid ""
+"Payment Line: %(move_names)s (%(partner_name)s) in Payment Return: "
+"%(return_name)s"
+msgstr ""
+"Рядок платежу: %(move_names)s (%(partner_name)s) у поверненні платежу: "
+"%(return_name)s"
+
+#. module: account_payment_return
+#. odoo-python
+#: code:addons/account_payment_return/models/payment_return.py:0
+msgid ""
+"Payment reference must be unique\n"
+"%s"
+msgstr ""
+"Посилання платежу має бути унікальним\n"
+"%s"
+
+#. module: account_payment_return
+#. odoo-python
+#: code:addons/account_payment_return/models/account_move.py:0
+msgid "Returned on"
+msgstr "Повернено"
+
+#. module: account_payment_return
+#. odoo-python
+#: code:addons/account_payment_return/models/payment_return.py:0
+msgid "You can not remove a payment return if state is 'Done'"
+msgstr "Не можна видалити повернення платежу, якщо стан «Виконано»"
+
+#. module: account_payment_return
+#. odoo-python
+#: code:addons/account_payment_return/models/payment_return.py:0
+msgid "You must input all moves references in the payment return."
+msgstr "У поверненні платежу потрібно вказати посилання на всі переміщення."

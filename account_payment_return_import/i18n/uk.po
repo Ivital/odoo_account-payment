@@ -148,3 +148,73 @@ msgstr "Рядки повернення платежу"
 #: model:ir.model.fields,help:account_payment_return_import.field_payment_return_line__raw_import_data
 msgid "XML RAW data stored for debugging/check purposes"
 msgstr "Сирі XML-дані, збережені для налагодження/перевірки"
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+msgid "%d transactions had already been imported and were ignored."
+msgstr "%d транзакцій уже було імпортовано, тому їх проігноровано."
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+msgid "1 transaction had already been imported and was ignored."
+msgstr "1 транзакцію вже було імпортовано, тому її проігноровано."
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+msgid "Already imported items"
+msgstr "Уже імпортовані позиції"
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+msgid "Can not determine journal for import."
+msgstr "Не вдалося визначити журнал для імпорту."
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+msgid "Can not find the account number %s."
+msgstr "Номер рахунку %s не знайдено."
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+msgid ""
+"Could not make sense of the given file.\n"
+"Did you install the module to support this type of file?"
+msgstr ""
+"Не вдалося розпізнати наданий файл.\n"
+"Можливо, не встановлено модуль підтримки цього типу файлу?"
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/base_parser.py:0
+msgid "Couldn't load file data"
+msgstr "Не вдалося завантажити дані файлу"
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+msgid "The account of this payment return is linked to another journal."
+msgstr "Рахунок цього повернення платежу пов’язаний з іншим журналом."
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+msgid "This file doesn't contain any payment return."
+msgstr "Цей файл не містить жодного повернення платежу."
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+msgid "This file doesn't contain any transaction."
+msgstr "Цей файл не містить жодної транзакції."
+
+#. module: account_payment_return_import
+#. odoo-python
+#: code:addons/account_payment_return_import/wizard/payment_return_import.py:0
+msgid "You have already imported this file."
+msgstr "Ви вже імпортували цей файл."

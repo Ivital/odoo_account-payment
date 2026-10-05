@@ -265,3 +265,27 @@ msgid ""
 msgstr ""
 "Використовуйте ці рядки для додавання рядків зіставлення, наприклад у "
 "платежі кредитною карткою додаються відсотки фінансування або комісія"
+
+#. module: account_payment_line
+#. odoo-python
+#: code:addons/account_payment_line/models/account_payment.py:0
+msgid "Write-off"
+msgstr "Списання"
+
+#. module: account_payment_line
+#. odoo-python
+#: code:addons/account_payment_line/models/account_payment.py:0
+msgid "Write-off account is not set for payment %(name)s"
+msgstr "Для платежу %(name)s не налаштовано рахунок списання"
+
+#. module: account_payment_line
+#. odoo-python
+#: code:addons/account_payment_line/models/account_payment.py:0
+msgid "You should set up write-off account on lines or in header to continue"
+msgstr "Щоб продовжити, налаштуйте рахунок списання у рядках або заголовку"
+
+#. module: account_payment_line
+#. odoo-python
+#: code:addons/account_payment_line/models/counterpart_line.py:0
+msgid "the amount exceeds the residual amount, please check the invoice %s"
+msgstr "сума перевищує залишкову суму, перевірте рахунок %s"

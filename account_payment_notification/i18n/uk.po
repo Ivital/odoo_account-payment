@@ -177,3 +177,9 @@ msgid ""
 msgstr ""
 "{{ object.company_id.name }} Сповіщення про платіж (Ref {{ object.name or "
 "'n/a' }})"
+
+#. module: account_payment_notification
+#. odoo-python
+#: code:addons/account_payment_notification/models/account_payment.py:0
+msgid "Cannot notify partners of these payments: %s"
+msgstr "Не вдалося сповістити партнерів про ці платежі: %s"

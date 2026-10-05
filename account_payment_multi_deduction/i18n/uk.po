@@ -140,3 +140,9 @@ msgstr "Сума відрахувань має дорівнювати різни
 #: model:ir.model.fields,help:account_payment_multi_deduction.field_account_payment_deduction__currency_id
 msgid "The payment's currency."
 msgstr "Валюта платежу."
+
+#. module: account_payment_multi_deduction
+#. odoo-python
+#: code:addons/account_payment_multi_deduction/wizard/account_payment_deduction.py:0
+msgid "Keep open"
+msgstr "Залишити відкритим"
